@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#F47C7C;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.menu-name{
+    font-size: 25px;
+    color: white;
+    
+}
+.list-item{
+      font-size: 20px;
+       
+}
+.list-item a{
+    text-decoration: none;
+    color: white;
+    margin-right: 60px;
+}
+.menu-icon{
+    display: none;
+}
+@media screen and (max-width:750px) {
+    .menu-icon{
+        display: block;
+    }
+    
+
+}
+
+ 
+.routes-part{
+    background-color:#FAD4D4;
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 105px;
+    text-transform: uppercase;
+    color: blue;
+
+}
